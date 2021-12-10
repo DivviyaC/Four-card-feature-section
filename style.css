@@ -1,0 +1,112 @@
+/* css rest */
+*{
+    box-sizing: border-box;
+}
+/* body default style */
+
+body{
+    margin: 0%;
+    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+/* tittle header */
+.header{
+    height: 150px;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+/* this is used to align the box center */
+.center-box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+/* .chang h1 size */
+h1{
+    font-size: 1.5rem;
+}
+ /* change give h1 darker color */
+.dark{
+    margin-top: 0;
+    color: hsl(234, 12%, 34%);
+    font-weight: 700;
+}
+/* give h1 light font weight */
+.lite{
+    font-weight: 300;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+/* main box of the container */
+.main-box{
+    display: flex;
+ min-height: 500px;
+    justify-content: space-around;
+    margin: 0 1rem;
+    flex-wrap: wrap
+}
+
+ /* three equal coloum */
+
+.first-box,.third-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* general box style of card */
+.box{
+    padding: 1rem;
+    background-color: white;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px #c5c5c5;
+    color: hsl(229, 6%, 66%);
+    margin: 1rem;
+}
+/* change the color of h2 */
+
+h2{
+    color: hsl(234, 12%, 34%);
+}
+/* icon of the card */
+
+.box img{
+    align-self: flex-end;
+}
+ /* it is used to determine the color of top border */
+.box-yellow{
+border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box-red{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.box-green{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box-blue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+/* adjust the width of header papra */
+.para-width{
+    max-width: 500px;
+    margin-top: -1rem;
+}
